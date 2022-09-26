@@ -3,6 +3,7 @@ import "./Styles/profile.css";
 import LoadingAnimation from "./LoadingAnimation";
 import SearchForm from "./Header/SearchForm";
 import LoadedProfile from "./LoadedResponses/LoadedProfile";
+require("dotenv").config();
 
 const Profile = (props) => {
     const [userId, setUserId] = useState("");
